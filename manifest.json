@@ -1,0 +1,20 @@
+{
+  "name": "shorts-hider",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["popup//const.js", "scripts//youtube.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup//main.html"
+  },
+  "icons": {
+    "128": "images//ico.png"
+  },
+
+  "permissions": ["storage"]
+}

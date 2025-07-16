@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: fit-content;
+}
+
+.inner {
+  margin: 1rem;
+  width: fit-content;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.input-label {
+  display: flex;
+  gap: 1rem;
+}
