@@ -16,5 +16,12 @@
     "128": "images//ico.png"
   },
 
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "shorts-hider@your-domain.com",
+      "strict_min_version": "109.0"
+    }
+  }
 }
