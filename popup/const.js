@@ -30,6 +30,7 @@ const config = [
       "yt-image>img",
       ".yt-thumbnail-view-model__image>img",
       "ytp-ce-covering-image",
+      "ytThumbnailViewModelImage"
     ],
   },
 ];
